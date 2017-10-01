@@ -20,5 +20,12 @@ class TestSumClass extends \PHPUnit_Framework_TestCase
     $this->assertEquals(10, $result);
   }
 
+  public function testShouldExpectWrongNumber()
+  {
+      $result = $this->class->method(1, 5);
+
+      $this->assertNotEquals(7, $result);
+  }
+
 }
 
