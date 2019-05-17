@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit backupGlobals="false"
+         bootstrap="./vendor/autoload.php"
+         verbose="true">
+  <testsuite name="unit">
+    <directory>./tests</directory>
+  </testsuite>
+  <logging>
+    <log type="coverage-html" target="./report" lowUpperBound="35" highLowerBound="70"/>
+  </logging>
+</phpunit>
