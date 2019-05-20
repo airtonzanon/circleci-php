@@ -2,3 +2,4 @@ vendor
 docker
 .idea
 report
+infection*

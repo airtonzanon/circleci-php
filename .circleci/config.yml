@@ -3,8 +3,8 @@ version: 2
 jobs:
   build:
     docker:
-      - image: zaherg/php-7.2-xdebug-alpine
-    working_directory: ~/circleci-php
+      - image: airtonzanon/php
+    working_directory: ~/app
     steps:
       - checkout
       - run: curl -o composer.phar https://getcomposer.org/composer.phar
