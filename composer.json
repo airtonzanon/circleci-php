@@ -11,5 +11,10 @@
     "psr-4": {
       "CircleCIPHP\\": "src/"
     }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "CircleCIPHP\\Test\\": "tests/"
+    }
   }
 }
